@@ -3,6 +3,7 @@
 <head>
   <title>VGAValhalla - Videokártyák Eldorádója</title>
   <link rel="stylesheet" type="text/css" href="vgavalhalla_design.css">
+  <script src="vgavalhalla._script.js"></script>
 </head>
 <body>
   <header>
@@ -12,6 +13,7 @@
 
   <section id="featured-products">
     <h2>Kiemelt termékek</h2>
+    <div class="product-carousel">
     <div class="container">
     <div class="products-container">
     <div class="product">
@@ -78,6 +80,7 @@
             <p>Leírás a termékről...</p>
             </div>
         </div>
+    </div>
     <div class="product">
         <div class="product-image">
             <img src="VGA képek\asusrtx3060dualv2.jpg" alt="ASUS GeForce Dual V2 RTX 3060 OC 12GB">
@@ -116,6 +119,7 @@
             <p>Leírás a termékről...</p>
             </div>
         </div>
+    </div>
     <div class="product">
         <div class="product-image">
             <img src="VGA képek\asusrtx4070tuf.jpg" alt="ASUS TUF Gaming GeForce RTX 4070 OC 12GB">
@@ -141,8 +145,13 @@
             <p>Leírás a termékről...</p>
             </div>
         </div>
+    </div>    
     </div>
     </div>
+    </div>
+    <div class="carousel-navigation">
+        <button class="prev-button" onclick="prevSlide()">Előző</button>
+        <button class="next-button" onclick="nextSlide()">Következő</button>
     </div>
   </section>
 
